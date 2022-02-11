@@ -66,9 +66,9 @@ function App() {
      <ButtonCustom variant="primary" onClick={() => console.log('clicked')}>
        <h1>Primary Button</h1>
        </ButtonCustom>*/}
-      <TextComponent as='h1' size="lg">Heading</TextComponent>
+      <TextComponent as='h1' size="lg" htmlFor='someId'>Heading</TextComponent>
       <TextComponent as='p' size="md" type='sdfsd'>Paragrah</TextComponent>
-      <TextComponent as='label' size="sm" color="secondary" htmlFor='someId' type='text'>
+      <TextComponent as='label' size="sm" color="secondary" htmlFor='someId' >
         Label
       </TextComponent>
 
